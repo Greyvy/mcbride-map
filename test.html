@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Union Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="SiteHeader">
+        <h1>Union</h1>
+    </div><!-- .SiteHeader -->
+
+    <div class="Content">
+
+        <div class="Content-header">
+
+            <div class="Grid  Grid--gutters  v2-Grid--2col">
+                <div class="Grid-cell">
+                    <ul class="Nav  Nav--sub">
+                        <li><a href="#">overview</a></li>
+                        <li><a href="#">community map</a></li>
+                    </ul><!-- .Nav--sub -->
+                </div><!-- .Grid-cell -->
+                <div class="Grid-cell"><h1 class="Content-title">Community</h1></div>
+            </div><!-- .Grid -->
+        </div><!-- .Content-header -->
+
+        <div class="Map" id="map-canvas"></div>
+
+        <div class="Control">
+
+            <div class="Grid  Grid--gutters  v2-Grid--2col">
+
+                <div class="Grid-cell">
+                    <ul class="Control-list">
+                        <li class="h1"><a href="#">Restaurants & Cafés</a></li>
+                        <li class="h1"><a href="#">The Essentials</a></li>
+                        <li class="h1"><a href="#">Recreation</a></li>
+                        <li class="h1"><a href="#">Shopping</a></li>
+                    </ul><!-- .Control-list -->
+                </div><!-- .Grid-cell -->
+
+                <div class="Grid-cell">
+                    <ol class="Control-result">
+                        <li><a href="#">Downtown Medical Centre</a></li>
+                        <li><a href="#">Royal Bank</a></li>
+                        <li><a href="#">Scotia Bank</a></li>
+                        <li><a href="#">Bank of Montreal</a></li>
+                        <li><a href="#">Shopper Drug Mart</a></li>
+                        <li><a href="#">Fish Hair Salon</a></li>
+                        <li><a href="#">Capital Iron Hardware</a></li>
+                        <li><a href="#">China Cleaners</a></li>
+                    </ol><!-- .Control-result -->
+                </div><!-- .Grid-cell -->
+
+                <div class="Grid-cell"><hr></div>
+                <div class="Grid-cell"><hr></div>
+
+            </div><!-- .Grid -->
+
+        </div><!-- .Amenities -->
+
+    </div><!-- .Content -->
+
+    <div class="SiteFooter">
+        <p>&copy; 2014</p>
+    </div><!-- .SiteFooter -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="map.js"></script>
+</body>
+</html>
