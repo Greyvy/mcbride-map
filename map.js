@@ -2,7 +2,18 @@ var initialize = function() {
 
     // The map styles JSON array
     // generated at: http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
-    var styles = [{"stylers":[{"saturation":-100}]},{"featureType":"water","stylers":[{"color":"#fefbf1"}]},{"featureType":"landscape","stylers":[{"color":"#eae7e0"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#fefbf3"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#c6c4c1"}]},{"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#000000"}]},{"featureType":"poi","stylers":[{"color":"#d6d6d6"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#cbd9c6"}]}];
+    var styles = [{"stylers":[{"saturation":-100}]},{"featureType":"water","stylers":[{"color":"#fefbf2"}]},{"featureType":"landscape","stylers":[{"color":"#eae7e0"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#fefbf3"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#d5d3cc"}]},{"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#000000"}]},{"featureType":"poi","stylers":[{"color":"#d6d6d6"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#c7dfbe"}]},{"featureType": "administrative","elementType": "geometry.fill","stylers": [{ "color": "#d6d6d6" }]}];
+
+    // l-grey: #d5d3cc
+
+    // green: cbd9c6
+    // green up-sat: c7dfbe
+
+    // super l-grey: d6d6d6
+    // darker l-grey: bdbdbd
+
+    // eae7e0
+    // e0dcd1
 
     // Create a latitude and longitude
     var myLatlng = new google.maps.LatLng(49.169467, -122.583025);
