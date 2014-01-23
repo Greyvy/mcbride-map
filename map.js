@@ -24,7 +24,7 @@ var initialize = function() {
         // Centre on the created latitude and longitude
         center: myLatlng,
         // Set the map zoom level
-        zoom: 13,
+        zoom: 14,
         // Set the map styles to the JSON array we made
         styles: styles
     };
